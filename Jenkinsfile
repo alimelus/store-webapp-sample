@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     // Let's clone the source
-                    git '';
+                    git 'https://github.com/alimelus/store-webapp-sample.git';
                 }
             }
         }
